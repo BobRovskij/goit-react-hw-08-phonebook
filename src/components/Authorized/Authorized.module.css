@@ -1,0 +1,35 @@
+.success {
+  padding-top: 45px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: var(--main-background);
+  text-shadow: 1px 1px 1px rgb(51, 24, 124);
+}
+
+.notification {
+  text-align: center;
+  font-size: 26px;
+  color: var(--main-background);
+  text-shadow: 1px 1px 1px rgb(51, 24, 124);
+}
+
+.link {
+  font-weight: 700;
+  color: var(--main-background);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--current-button-text-color);
+  text-decoration: none;
+}
+
+.image {
+  width: 400px;
+}

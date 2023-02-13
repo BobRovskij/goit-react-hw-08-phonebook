@@ -1,0 +1,39 @@
+.contacts__listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 8px 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(1, 10, 64, 0.58);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(1, 10, 64, 0.58);
+    box-shadow: 0px 2px 4px 0px rgba(1, 10, 64, 0.58);
+}
+
+.contacts__listItem:last-of-type {
+    margin-bottom: 0;
+}
+
+.contacts__delBtn {
+    width: 100px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #001ead;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.contacts__delBtn:hover {
+    background-color: #000f58;
+    color: rgb(13, 186, 255);    
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+}

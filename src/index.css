@@ -7,9 +7,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(0deg, rgb(202, 124, 183) 0%, rgb(88, 9, 75) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --main-background: #fff;
+  --main-blue: #0722a8;
+  --current-blue: #010e4e;
+  --main-text-color: rgb(7, 13, 39);
+  --current-button-text-color: rgb(18, 181, 245);
 }
